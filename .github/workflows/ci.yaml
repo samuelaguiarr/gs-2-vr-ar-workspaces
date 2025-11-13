@@ -23,5 +23,5 @@ jobs:
             -   name: Execução de Testes Unitários
                 run: mvn test
             -   name: Teste de Criação de Imagem
-                run: docker build -t gs-2-vr-arworkspaces .
+                run: docker build -t gs-2-vr-arworkspa .
 

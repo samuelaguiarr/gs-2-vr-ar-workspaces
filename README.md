@@ -1,4 +1,4 @@
-# gs-2-vr-arworkspaces
+# gs-2-vr-arworkspa
 
 API para Ambientes de trabalho com Realidade Virtual ou Aumentada
 
@@ -72,22 +72,22 @@ mvn spring-boot:run
 
 1. **Build da imagem:**
 ```bash
-docker build -t gs-2-vr-arworkspaces .
+docker build -t gs-2-vr-arworkspa .
 ```
 
 2. **Execute o container:**
 ```bash
-docker run -p 8081:8081 gs-2-vr-arworkspaces
+docker run -p 8081:8081 gs-2-vr-arworkspa
 ```
 
 ## Docker Hub
 
 A imagem Docker está disponível em:
-**https://hub.docker.com/r/samuelschaeffer/gs-2-vr-arworkspaces**
+**https://hub.docker.com/r/samuelschaeffer/gs-2-vr-arworkspa**
 
 Para fazer pull da imagem:
 ```bash
-docker pull samuelschaeffer/gs-2-vr-arworkspaces:latest
+docker pull samuelschaeffer/gs-2-vr-arworkspa:latest
 ```
 
 ## Workflows CI/CD
@@ -137,7 +137,7 @@ A documentação completa da API está disponível via Swagger/OpenAPI:
 ## Estrutura do Projeto
 
 ```
-gs-2-vr-arworkspaces/
+gs-2-vr-arworkspa/
 ├── .github/
 │   └── workflows/
 │       ├── versioning.yaml
@@ -172,4 +172,3 @@ Para que os workflows funcionem corretamente, é necessário configurar:
 ## Licença
 
 Este projeto foi desenvolvido como parte da Global Solution.
-

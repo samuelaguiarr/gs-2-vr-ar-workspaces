@@ -85,7 +85,7 @@ docker run -p 8081:8081 gs-2-vr-ar-workspaces
 ## Docker Hub
 
 A imagem Docker está disponível em:
-**https://hub.docker.com/r/samuelschaeffer/gs-2-vr-ar-workspaces**
+**https://hub.docker.com/repository/docker/samuelschaeffer/gs-2-vr-ar-workspaces/general**
 
 Para fazer pull da imagem:
 ```bash

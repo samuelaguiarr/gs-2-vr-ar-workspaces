@@ -1,0 +1,11 @@
+services:
+  api:
+    build: .
+    ports:
+      - 8081:8081
+    networks:
+      - app-networks
+
+networks:
+  app-networks:
+

@@ -32,7 +32,6 @@ class TemaControllerTest {
 		assertNotNull(response.getBody());
 		assertEquals("Ambientes de trabalho com Realidade Virtual ou Aumentada", response.getBody().tema());
 		assertNotNull(response.getBody().membro1());
-		assertNotNull(response.getBody().membro2());
 		assertNotNull(response.getBody().descricao());
 	}
 }

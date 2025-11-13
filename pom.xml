@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.github.gs</groupId>
 	<artifactId>gs-2-vr-arworkspaces</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>gs-2-vr-arworkspaces</name>
 	<description>API para Ambientes de trabalho com Realidade Virtual ou Aumentada</description>
 	<url/>
@@ -29,6 +29,7 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+
 		<dependency>
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>

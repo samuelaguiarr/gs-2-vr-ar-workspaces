@@ -1,10 +1,9 @@
-# gs-2-vr-arworkspa
+# gs-2-vr-ar-workspaces
 
 API para Ambientes de trabalho com Realidade Virtual ou Aumentada
 
-## Membros do Grupo
+## Membro do Grupo
 
-### Membro 1
 - **Nome:** Samuel Schaeffer Aguiar
 - **RM:** 550212
 
@@ -44,8 +43,8 @@ A API é projetada para ser escalável, moderna e preparada para implantação e
 
 1. **Clone o repositório:**
 ```bash
-git clone https://github.com/samuelaguiarr/gs-2-vr-arworkspa.git
-cd gs-2-vr-arworkspa
+git clone https://github.com/samuelaguiarr/gs-2-vr-ar-workspaces.git
+cd gs-2-vr-ar-workspaces
 ```
 
 2. **Compile o projeto:**
@@ -72,22 +71,22 @@ mvn spring-boot:run
 
 1. **Build da imagem:**
 ```bash
-docker build -t gs-2-vr-arworkspa .
+docker build -t gs-2-vr-ar-workspaces .
 ```
 
 2. **Execute o container:**
 ```bash
-docker run -p 8081:8081 gs-2-vr-arworkspa
+docker run -p 8081:8081 gs-2-vr-ar-workspaces
 ```
 
 ## Docker Hub
 
 A imagem Docker está disponível em:
-**https://hub.docker.com/r/samuelschaeffer/gs-2-vr-arworkspa**
+**https://hub.docker.com/repository/docker/samuelschaeffer/gs-2-vr-ar-workspaces/general**
 
 Para fazer pull da imagem:
 ```bash
-docker pull samuelschaeffer/gs-2-vr-arworkspa:latest
+docker pull samuelschaeffer/gs-2-vr-ar-workspaces:latest
 ```
 
 ## Workflows CI/CD
@@ -115,14 +114,13 @@ O projeto implementa três workflows principais no GitHub Actions:
 ## Endpoints da API
 
 ### GET /info
-Retorna informações sobre o tema do projeto, membros do grupo e descrição.
+Retorna informações sobre o tema do projeto, membro do grupo e descrição.
 
 **Resposta:**
 ```json
 {
   "tema": "Ambientes de trabalho com Realidade Virtual ou Aumentada",
   "membro1": "Samuel Schaeffer Aguiar",
-  "membro2": "N/A",
   "descricao": "Esta API foi desenvolvida para suportar ambientes de trabalho inovadores que utilizam tecnologias de Realidade Virtual (VR) e Realidade Aumentada (AR)..."
 }
 ```
@@ -137,7 +135,7 @@ A documentação completa da API está disponível via Swagger/OpenAPI:
 ## Estrutura do Projeto
 
 ```
-gs-2-vr-arworkspa/
+gs-2-vr-ar-workspaces/
 ├── .github/
 │   └── workflows/
 │       ├── versioning.yaml
@@ -172,3 +170,11 @@ Para que os workflows funcionem corretamente, é necessário configurar:
 ## Licença
 
 Este projeto foi desenvolvido como parte da Global Solution.
+
+<!-- Teste CI workflow -->
+<!-- Teste CD workflow -->
+<!-- Teste workflow versioning -->
+<!-- Teste CI workflow -->
+<!-- Teste CD workflow -->
+<!-- Ultima atualizacao -->
+<!-- Update Docker Hub -->

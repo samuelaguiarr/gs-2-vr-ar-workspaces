@@ -175,3 +175,4 @@ Este projeto foi desenvolvido como parte da Global Solution.
 <!-- Teste CD workflow -->
 <!-- Teste workflow versioning -->
 <!-- Teste CI workflow -->
+<!-- Teste CD workflow -->

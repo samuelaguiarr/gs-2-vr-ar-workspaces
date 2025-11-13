@@ -27,7 +27,12 @@ jobs:
       - name: Get version from pom.xml
         id: get_version
         run: |
-          VERSION=$(grep -oP '<version>\K[^<]+' pom.xml | head -1 | sed 's/-SNAPSHOT//')
+          # Extract project version (not parent version) using Maven
+          VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout | sed 's/-SNAPSHOT//')
+          if [ -z "$VERSION" ]; then
+            # Fallback: extract version after artifactId (project version, not parent)
+            VERSION=$(grep -A 1 '<artifactId>gs-2-vr-arworkspaces</artifactId>' pom.xml | grep '<version>' | sed 's/.*<version>\(.*\)<\/version>.*/\1/' | sed 's/-SNAPSHOT//')
+          fi
           echo "version=$VERSION" >> $GITHUB_OUTPUT
           echo "Version: $VERSION"
       

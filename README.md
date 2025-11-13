@@ -1,6 +1,8 @@
-# gs-2-vr-arworkspa
+# gs-2-vr-ar-workspaces
 
 API para Ambientes de trabalho com Realidade Virtual ou Aumentada
+
+<!-- Test CI workflow -->
 
 ## Membros do Grupo
 

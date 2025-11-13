@@ -172,3 +172,4 @@ Para que os workflows funcionem corretamente, é necessário configurar:
 Este projeto foi desenvolvido como parte da Global Solution.
 
 <!-- Teste CI workflow -->
+<!-- Teste CD workflow -->

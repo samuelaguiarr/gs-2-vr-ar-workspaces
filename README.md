@@ -3,6 +3,7 @@
 API para Ambientes de trabalho com Realidade Virtual ou Aumentada
 
 <!-- Test CI workflow -->
+<!-- Trigger CD workflow -->
 
 ## Membros do Grupo
 

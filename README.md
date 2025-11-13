@@ -44,8 +44,8 @@ A API é projetada para ser escalável, moderna e preparada para implantação e
 
 1. **Clone o repositório:**
 ```bash
-git clone https://github.com/samuelaguiarr/gs-2-vr-arworkspaces.git
-cd gs-2-vr-arworkspaces
+git clone https://github.com/samuelaguiarr/gs-2-vr-arworkspa.git
+cd gs-2-vr-arworkspa
 ```
 
 2. **Compile o projeto:**

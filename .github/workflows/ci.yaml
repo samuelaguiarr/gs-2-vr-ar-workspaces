@@ -1,0 +1,27 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches:
+      - feature/**
+      - release
+      - hotfix   
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            -   name: Checkout
+                uses: actions/checkout@v5
+            -   name: Set up JDK 17
+                uses: actions/setup-java@v4
+                with:
+                    java-version: '17'
+                    distribution: 'temurin'
+            -   name: Build da Aplicação
+                run: mvn clean package -DskipTests
+            -   name: Execução de Testes Unitários
+                run: mvn test
+            -   name: Teste de Criação de Imagem
+                run: docker build -t gs-2-vr-arworkspaces .
+

@@ -170,3 +170,5 @@ Para que os workflows funcionem corretamente, é necessário configurar:
 ## Licença
 
 Este projeto foi desenvolvido como parte da Global Solution.
+
+<!-- Teste CI workflow -->

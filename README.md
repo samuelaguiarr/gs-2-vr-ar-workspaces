@@ -63,7 +63,6 @@ mvn spring-boot:run
 ```
 
 4. **Acesse a aplicação:**
-- API: http://localhost:8081
 - Swagger UI: http://localhost:8081/swagger-ui.html
 - Endpoint de informações: http://localhost:8081/info
 
